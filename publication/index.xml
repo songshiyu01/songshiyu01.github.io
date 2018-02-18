@@ -12,5 +12,23 @@
 	<atom:link href="https://songshiyu01.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes</title>
+      <link>https://songshiyu01.github.io/publication/icra2018_localization/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://songshiyu01.github.io/publication/icra2018_localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes</title>
+      <link>https://songshiyu01.github.io/publication/arxiv2017_localization/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://songshiyu01.github.io/publication/arxiv2017_localization/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
