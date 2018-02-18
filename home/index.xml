@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://songshiyu01.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,11 +15,11 @@
     <item>
       <title></title>
       <link>https://songshiyu01.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://songshiyu01.github.io/home/about/</guid>
-      <description>Biography Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
+      <description>Biography I&amp;rsquo;m one of the founding team members of the Baidu Autonomous Driving Car project. I joined Baidu in 2014. I&amp;rsquo;m a senior research scientist (tech lead) at Baidu Autonomous Driving Business Unit now. Since Jan. 2016, I lead the vehicle positioning and high definition map team at Baidu ADU. We&amp;rsquo;re hiring.
+My research interests include Computer Vision, Robotics, LiDAR/Camera based Vehicle Localization, Visual Odometry (VO), Simultaneous Localization and Mapping (SLAM), Structure from Motion (SFM), 3D Reconstruction.</description>
     </item>
     
     <item>
