@@ -14,10 +14,10 @@
     
     <item>
       <title>Multi-sensor Fusion based Localization System</title>
-      <link>https://songshiyu01.github.io/project/msf-localization/</link>
+      <link>https://songshiyu01.github.io/project/msf_localization/</link>
       <pubDate>Sun, 18 Feb 2018 14:25:43 -0800</pubDate>
       
-      <guid>https://songshiyu01.github.io/project/msf-localization/</guid>
+      <guid>https://songshiyu01.github.io/project/msf_localization/</guid>
       <description></description>
     </item>
     
@@ -27,7 +27,7 @@
       <pubDate>Sat, 18 Feb 2012 00:00:00 -0800</pubDate>
       
       <guid>https://songshiyu01.github.io/project/monocular_vo/</guid>
-      <description></description>
+      <description>Summary Scale drift is a crucial challenge for monocular autonomous driving to emulate the performance of stereo. This paper presents a real-time monocular SFM system that corrects for scale drift using a novel cue combination framework for ground plane estimation, yielding accuracy comparable to stereo over long driving sequences. Our ground plane estimation uses multiple cues like sparse features, dense inter-frame stereo and (when applicable) object detection. A data-driven mechanism is proposed to learn models from training data that relate observation covariances for each cue to error behavior of its underlying variables.</description>
     </item>
     
   </channel>

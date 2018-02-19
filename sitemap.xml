@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>https://songshiyu01.github.io/project/msf-localization/</loc>
+      <loc>https://songshiyu01.github.io/project/msf_localization/</loc>
       <lastmod>2018-02-18T14:25:43-08:00</lastmod>
     </url>
     
@@ -59,6 +59,42 @@
     
     <url>
     
+      <loc>https://songshiyu01.github.io/publication/pami2016_monovo/</loc>
+      <lastmod>2016-04-01T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/publication/cvpr2015_object/</loc>
+      <lastmod>2015-06-08T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/publication/cvpr2014_monovo/</loc>
+      <lastmod>2014-06-24T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/publication/icra2013_monovo/</loc>
+      <lastmod>2013-05-06T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://songshiyu01.github.io/project/monocular_vo/</loc>
       <lastmod>2012-02-18T00:00:00-08:00</lastmod>
     </url>
@@ -70,6 +106,16 @@
     
       <loc>https://songshiyu01.github.io/publication_types/1/</loc>
       <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/publication_types/2/</loc>
+      <lastmod>2016-04-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     

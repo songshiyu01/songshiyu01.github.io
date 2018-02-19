@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Summary Scale drift is a crucial challenge for monocular autonomous driving to emulate the performance of stereo. This paper presents a real-time monocular SFM system that corrects for scale drift using a novel cue combination framework for ground plane estimation, yielding accuracy comparable to stereo over long driving sequences. Our ground plane estimation uses multiple cues like sparse features, dense inter-frame stereo and (when applicable) object detection. A data-driven mechanism is proposed to learn models from training data that relate observation covariances for each cue to error behavior of its underlying variables.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://songshiyu01.github.io/project/monocular_vo/">
@@ -89,7 +89,7 @@
   <meta property="og:site_name" content="Shiyu Song">
   <meta property="og:url" content="https://songshiyu01.github.io/project/monocular_vo/">
   <meta property="og:title" content="Monocular Visual Odometry | Shiyu Song">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="Summary Scale drift is a crucial challenge for monocular autonomous driving to emulate the performance of stereo. This paper presents a real-time monocular SFM system that corrects for scale drift using a novel cue combination framework for ground plane estimation, yielding accuracy comparable to stereo over long driving sequences. Our ground plane estimation uses multiple cues like sparse features, dense inter-frame stereo and (when applicable) object detection. A data-driven mechanism is proposed to learn models from training data that relate observation covariances for each cue to error behavior of its underlying variables.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2012-02-18T00:00:00-08:00">
@@ -273,6 +273,57 @@
 
     <div class="article-style" itemprop="articleBody">
       
+
+<h3 id="summary">Summary</h3>
+
+<p>Scale drift is a crucial challenge for monocular autonomous driving to emulate the performance of stereo. This paper presents a real-time monocular SFM system that corrects for scale drift using a novel cue combination framework for ground plane estimation, yielding accuracy comparable to stereo over long driving sequences. Our ground plane estimation uses multiple cues like sparse features, dense inter-frame stereo and (when applicable) object detection. A data-driven mechanism is proposed to learn models from training data that relate observation covariances for each cue to error behavior of its underlying variables. During testing, this allows per-frame adaptation of observation covariances based on relative confidences inferred from visual data. Our framework significantly boosts not only the accuracy of monocular self-localization, but also that of applications like object localization that rely on the ground plane. Experiments on the KITTI dataset demonstrate the accuracy of our ground plane estimation, monocular SFM and object localization relative to ground truth, with detailed comparisons to prior art.</p>
+
+<h3 id="accuracy">Accuracy</h3>
+
+<p>We demonstrate our performance on the KITTI dataset. For camera self-localization, our purely vision-based system achieves a rotation error of 0.005 degrees per meter and a translation error of 2.5%, which compares favorably even to state-of-the-art stereo systems and significantly outperforms other monocular systems. For 3D localization of other traffic participants like cars, we achieve low errors of 8% for near objects (within 30 meters) and 12% for far objects (beyond 30 meters).</p>
+
+<p><img src="/img/monocular_vo_overview.png" alt="The overview of the monocular visual odometry system" /></p>
+
+<h3 id="cue-combination">Cue combination</h3>
+
+<p>The main challenge in monocular SFM is scale drift, since unlike the case of stereo, there is no reference baseline. We overcome this challenge with a novel cue combination framework, that combines information from 3D points, inter-frame stereo and object detection.</p>
+
+<p><img src="/img/monocular_vo_cue.png" alt="The cue combination of the monocular visual odometry system" /></p>
+
+<h3 id="comparison-to-other-systems">Comparison to other systems</h3>
+
+<p>Our real-time monocular SFM is comparable in accuracy to state-of-the-art stereo systems and significantly outperforms other monocular systems. A few example sequences are shown here from the KITTI benchmark.</p>
+
+<p><img src="/img/monocular_vo_comparison.png" alt="The comparison to other systems" /></p>
+
+<h3 id="videos">Videos</h3>
+
+<p>These videos provide a 1-minute description of the paper and demonstrate the monocular visual odometry and 3D object localization results.</p>
+
+<h5 id="overview">Overview</h5>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/RN-WHId0tek" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
+<h5 id="3d-object-localization">3D object localization</h5>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/_uxX_DlJ0CI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
+<h5 id="monocular-visual-odometry">Monocular visual odometry</h5>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/7orRPfRbhUs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
     </div>
 
     
@@ -289,6 +340,197 @@
       
       
       
+      
+        <h2>Publications</h2>
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    <strong>Shiyu Song</strong>, Manmohan Chandraker, Clark C. Guest</span>.
+  <a href="https://songshiyu01.github.io/publication/pami2016_monovo/" itemprop="name">High Accuracy Monocular SFM and Scale Correction for Autonomous Driving</a>.
+  <strong>T-PAMI</strong>,
+  2016.
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://ieeexplore.ieee.org/document/7206590/" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://songshiyu01.github.io/pdf/pami2016_monovo.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/monocular_vo/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    <strong>Shiyu Song</strong>, Manmohan Chandraker</span>.
+  <a href="https://songshiyu01.github.io/publication/cvpr2015_object/" itemprop="name">Joint SFM and Detection Cues for Monocular 3D Localization in Road Scenes</a>.
+  <strong>CVPR (Oral)</strong>,
+  2015.
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://ieeexplore.ieee.org/document/7298997/" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/2B_043.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/monocular_vo/">
+  Project
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://songshiyu01.github.io/pdf/cvpr2015_object_poster.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=_uxX_DlJ0CI" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    <strong>Shiyu Song</strong>, Manmohan Chandraker</span>.
+  <a href="https://songshiyu01.github.io/publication/cvpr2014_monovo/" itemprop="name">Robust Scale Estimation in Real-Time Monocular SFM for Autonomous Driving</a>.
+  <strong>CVPR</strong>,
+  2014.
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://ieeexplore.ieee.org/xpl/abstractMetrics.jsp?tp=&amp;arnumber=6909599" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://songshiyu01.github.io/pdf/cvpr2014_monovo.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/monocular_vo/">
+  Project
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://songshiyu01.github.io/pdf/cvpr2014_monovo_poster.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.youtube.com/watch?v=EK7u9UNdcOU" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+</p>
+</div>
+
+          
+        
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    <strong>Shiyu Song</strong>, Manmohan Chandraker, Clark C. Guest</span>.
+  <a href="https://songshiyu01.github.io/publication/icra2013_monovo/" itemprop="name">Parallel, Real-Time Monocular Visual Odometry</a>.
+  <strong>ICRA</strong>,
+  2013.
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://ieeexplore.ieee.org/document/6631246/?tp=&amp;arnumber=6631246" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://songshiyu01.github.io/pdf/icra2013_monovo.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/monocular_vo/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+          
+        
       
 
       
