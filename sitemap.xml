@@ -5,15 +5,6 @@
     
     <url>
     
-      <loc>https://songshiyu01.github.io/project/msf_localization/</loc>
-      <lastmod>2018-02-18T14:25:43-08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://songshiyu01.github.io/publication/icra2018_localization/</loc>
       <lastmod>2018-01-21T00:00:00+00:00</lastmod>
     </url>
@@ -25,6 +16,15 @@
     
       <loc>https://songshiyu01.github.io/publication/arxiv2017_localization/</loc>
       <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/talk/geospatial2017/</loc>
+      <lastmod>2017-09-19T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -61,6 +61,24 @@
     
       <loc>https://songshiyu01.github.io/publication/pami2016_monovo/</loc>
       <lastmod>2016-04-01T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/project/msf_localization/</loc>
+      <lastmod>2015-11-02T00:00:00-08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/talk/cvpr2015_monovo/</loc>
+      <lastmod>2015-06-09T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -144,7 +162,7 @@
     <url>
     
       <loc>https://songshiyu01.github.io/project/</loc>
-      <lastmod>2018-02-18T14:25:43-08:00</lastmod>
+      <lastmod>2015-11-02T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
     
