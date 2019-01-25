@@ -6,44 +6,70 @@
     <description>Recent content in Homes on Shiyu Song</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
-    <lastBuildDate>Sat, 17 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://songshiyu01.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
+      <title>Biography</title>
       <link>https://songshiyu01.github.io/home/about/</link>
-      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/about/</guid>
-      <description>Biography I&amp;rsquo;m one of the founding team members of the Baidu Autonomous Driving Car project. I joined Baidu in 2014. I&amp;rsquo;m a staff research scientist at Baidu Autonomous Driving Business Unit (ADU) now. Since Jan. 2016, I am the tech lead of the mapping and localization team at Baidu ADU. We&amp;rsquo;re hiring.
-My research interests include Computer Vision, Robotics, Simultaneous Localization and Mapping (SLAM), Structure from Motion (SFM), 3D Reconstruction.</description>
+      <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://songshiyu01.github.io/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <link>https://songshiyu01.github.io/home/publications_featured/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>https://songshiyu01.github.io/home/publications_selected/</guid>
+      <guid>https://songshiyu01.github.io/home/publications_featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accomplish&amp;shy;ments</title>
+      <link>https://songshiyu01.github.io/home/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://songshiyu01.github.io/home/accomplishments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
       <link>https://songshiyu01.github.io/home/publications/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Featured Talks</title>
+      <link>https://songshiyu01.github.io/home/talks_featured/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://songshiyu01.github.io/home/talks_featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://songshiyu01.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://songshiyu01.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>https://songshiyu01.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/projects/</guid>
       <description></description>
@@ -52,7 +78,7 @@ My research interests include Computer Vision, Robotics, Simultaneous Localizati
     <item>
       <title>Contact</title>
       <link>https://songshiyu01.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/contact/</guid>
       <description></description>

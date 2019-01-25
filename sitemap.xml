@@ -2,15 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-    
     <url>
     
       <loc>https://songshiyu01.github.io/publication/icra2018_localization/</loc>
-      <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
     </url>
     
   
-    
     
     <url>
     
@@ -20,125 +18,111 @@
     
   
     
-    
     <url>
     
-      <loc>https://songshiyu01.github.io/talk/geospatial2017/</loc>
-      <lastmod>2017-09-19T00:00:00+08:00</lastmod>
+      <loc>https://songshiyu01.github.io/post/</loc>
+      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
   
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
   
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
   
-    
-    
-    <url>
-    
-      <loc>https://songshiyu01.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/publication/pami2016_monovo/</loc>
-      <lastmod>2016-04-01T00:00:00+08:00</lastmod>
+      <lastmod>2016-04-01T00:00:00-07:00</lastmod>
     </url>
     
   
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/project/msf_localization/</loc>
-      <lastmod>2015-11-02T00:00:00+08:00</lastmod>
+      <lastmod>2015-11-02T00:00:00-08:00</lastmod>
     </url>
     
   
-    
-    
-    <url>
-    
-      <loc>https://songshiyu01.github.io/talk/cvpr2015_monovo/</loc>
-      <lastmod>2015-06-09T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/publication/cvpr2015_object/</loc>
-      <lastmod>2015-06-08T00:00:00+08:00</lastmod>
+      <lastmod>2015-06-08T00:00:00-07:00</lastmod>
     </url>
     
   
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/publication/cvpr2014_monovo/</loc>
-      <lastmod>2014-06-24T00:00:00+08:00</lastmod>
+      <lastmod>2014-06-24T00:00:00-07:00</lastmod>
     </url>
     
   
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/publication/icra2013_monovo/</loc>
-      <lastmod>2013-05-06T00:00:00+08:00</lastmod>
+      <lastmod>2013-05-06T00:00:00-07:00</lastmod>
     </url>
     
   
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/project/monocular_vo/</loc>
-      <lastmod>2012-02-18T00:00:00+08:00</lastmod>
+      <lastmod>2012-02-18T00:00:00-08:00</lastmod>
     </url>
     
   
     
+    <url>
+    
+      <loc>https://songshiyu01.github.io/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/shiyu-song/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
     
     <url>
     
       <loc>https://songshiyu01.github.io/publication_types/1/</loc>
-      <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
   
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/publication_types/2/</loc>
-      <lastmod>2016-04-01T00:00:00+08:00</lastmod>
+      <lastmod>2016-04-01T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
   
-    
     
     <url>
     
@@ -149,6 +133,22 @@
     
   
     
+    <url>
+    
+      <loc>https://songshiyu01.github.io/author/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
     
     <url>
     
@@ -158,40 +158,108 @@
     
   
     
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/clark-c.-guest/</loc>
+      <lastmod>2016-04-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/guowei-wan/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/hao-li/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/hao-wang/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/manmohan-chandraker/</loc>
+      <lastmod>2016-04-01T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
     
     <url>
     
       <loc>https://songshiyu01.github.io/project/</loc>
-      <lastmod>2015-11-02T00:00:00+08:00</lastmod>
+      <lastmod>2015-11-02T00:00:00-08:00</lastmod>
       <priority>0</priority>
     </url>
     
   
-    
     
     <url>
     
       <loc>https://songshiyu01.github.io/publication_types/</loc>
-      <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
   
     
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/renlan-cai/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
     
     <url>
     
       <loc>https://songshiyu01.github.io/</loc>
-      <lastmod>2018-02-17T00:00:00+00:00</lastmod>
+      <lastmod>2016-04-20T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
   
     
-    
     <url>
     
       <loc>https://songshiyu01.github.io/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/xiaolong-yang/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/yao-zhou/</loc>
+      <lastmod>2018-05-21T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     

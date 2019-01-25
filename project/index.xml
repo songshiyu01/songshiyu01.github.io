@@ -6,8 +6,8 @@
     <description>Recent content in Projects on Shiyu Song</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
-    <lastBuildDate>Mon, 02 Nov 2015 00:00:00 +0800</lastBuildDate>
+    <copyright>&amp;copy; 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
+    <lastBuildDate>Mon, 02 Nov 2015 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="https://songshiyu01.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Multi-sensor Fusion based Localization System</title>
       <link>https://songshiyu01.github.io/project/msf_localization/</link>
-      <pubDate>Mon, 02 Nov 2015 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 02 Nov 2015 00:00:00 -0800</pubDate>
       
       <guid>https://songshiyu01.github.io/project/msf_localization/</guid>
       <description>Summary We present a robust and precise localization system that achieves centimeter-level localization accuracy in disparate city scenes. Our system adaptively uses information from complementary sensors such as GNSS, LiDAR, and IMU to achieve high localization accuracy and resilience in challenging scenes, such as urban downtown, highways, and tunnels. Rather than relying only on LiDAR intensity or 3D geometry, we make innovative use of LiDAR intensity and altitude cues to significantly improve localization system accuracy and robustness.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>Monocular Visual Odometry</title>
       <link>https://songshiyu01.github.io/project/monocular_vo/</link>
-      <pubDate>Sat, 18 Feb 2012 00:00:00 +0800</pubDate>
+      <pubDate>Sat, 18 Feb 2012 00:00:00 -0800</pubDate>
       
       <guid>https://songshiyu01.github.io/project/monocular_vo/</guid>
       <description>Summary Scale drift is a crucial challenge for monocular autonomous driving to emulate the performance of stereo. This paper presents a real-time monocular SFM system that corrects for scale drift using a novel cue combination framework for ground plane estimation, yielding accuracy comparable to stereo over long driving sequences. Our ground plane estimation uses multiple cues like sparse features, dense inter-frame stereo and (when applicable) object detection. A data-driven mechanism is proposed to learn models from training data that relate observation covariances for each cue to error behavior of its underlying variables.</description>
