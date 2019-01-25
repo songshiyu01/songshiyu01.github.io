@@ -12,8 +12,32 @@
     
     <url>
     
+      <loc>https://songshiyu01.github.io/talk/mipr2019/</loc>
+      <lastmod>2018-03-28T09:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/talk/baiduai2018/</loc>
+      <lastmod>2018-03-28T09:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://songshiyu01.github.io/publication/arxiv2017_localization/</loc>
       <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/talk/isprs2017/</loc>
+      <lastmod>2017-09-19T09:00:00-07:00</lastmod>
     </url>
     
   
@@ -234,6 +258,15 @@
     
       <loc>https://songshiyu01.github.io/</loc>
       <lastmod>2016-04-20T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://songshiyu01.github.io/authors/shiyu-song/</loc>
+      <lastmod>2018-03-28T09:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
