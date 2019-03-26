@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="We make brief introduction of the development history of Baidu self-driving car, Baidu Apollo platform for developers, the techniques behind the Baidu HD Map and our multi-sensor fusion based localization system. We present a robust and precise localization system that achieves centimeter-level localization accuracy in varied city scenes. Our system adaptively uses information from complementary sensors such as GNSS, LiDAR, and IMU to achieve high localization accuracy and robustness in various challenging scenes, including urban downtown, highway, tunnel and so on. Both our HD Map products and localization system have been deployed in a large autonomous driving fleet, and make our vehicles fully autonomous in crowded city streets every day.">
+  <meta name="description" content="We present a robust and precise localization system that achieves centimeter-level localization accuracy in varied city scenes. Our system adaptively uses information from complementary sensors such as GNSS, LiDAR, and IMU to achieve high localization accuracy and robustness in various challenging scenes, including urban downtown, highway, tunnel and so on. Moving forward, we introduce our latest work in exploring learning-based localization system. It leverages the help of the deep neural network structures to establish a learning-based approach that achieves centimeter-level localization accuracy, comparable to prior state-of-the-art systems with hand-crafted pipelines.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://songshiyu01.github.io/talk/mipr2019/">
@@ -132,8 +132,8 @@
   
   <meta property="og:site_name" content="Shiyu Song">
   <meta property="og:url" content="https://songshiyu01.github.io/talk/mipr2019/">
-  <meta property="og:title" content="HD Map, Localization and Self-Driving Car | Shiyu Song">
-  <meta property="og:description" content="We make brief introduction of the development history of Baidu self-driving car, Baidu Apollo platform for developers, the techniques behind the Baidu HD Map and our multi-sensor fusion based localization system. We present a robust and precise localization system that achieves centimeter-level localization accuracy in varied city scenes. Our system adaptively uses information from complementary sensors such as GNSS, LiDAR, and IMU to achieve high localization accuracy and robustness in various challenging scenes, including urban downtown, highway, tunnel and so on. Both our HD Map products and localization system have been deployed in a large autonomous driving fleet, and make our vehicles fully autonomous in crowded city streets every day."><meta property="og:image" content="https://songshiyu01.github.io/img/icon-192.png">
+  <meta property="og:title" content="Towards Learning-based Localization for Autonomous Driving | Shiyu Song">
+  <meta property="og:description" content="We present a robust and precise localization system that achieves centimeter-level localization accuracy in varied city scenes. Our system adaptively uses information from complementary sensors such as GNSS, LiDAR, and IMU to achieve high localization accuracy and robustness in various challenging scenes, including urban downtown, highway, tunnel and so on. Moving forward, we introduce our latest work in exploring learning-based localization system. It leverages the help of the deep neural network structures to establish a learning-based approach that achieves centimeter-level localization accuracy, comparable to prior state-of-the-art systems with hand-crafted pipelines."><meta property="og:image" content="https://songshiyu01.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-03-28T09:00:00-07:00">
@@ -145,7 +145,7 @@
 
   
 
-  <title>HD Map, Localization and Self-Driving Car | Shiyu Song</title>
+  <title>Towards Learning-based Localization for Autonomous Driving | Shiyu Song</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -344,7 +344,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">HD Map, Localization and Self-Driving Car</h1>
+  <h1 itemprop="name">Towards Learning-based Localization for Autonomous Driving</h1>
 
   
 
@@ -387,7 +387,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=HD%20Map%2c%20Localization%20and%20Self-Driving%20Car&amp;url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fmipr2019%2f"
+         href="https://twitter.com/intent/tweet?text=Towards%20Learning-based%20Localization%20for%20Autonomous%20Driving&amp;url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fmipr2019%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -401,21 +401,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fmipr2019%2f&amp;title=HD%20Map%2c%20Localization%20and%20Self-Driving%20Car"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fmipr2019%2f&amp;title=Towards%20Learning-based%20Localization%20for%20Autonomous%20Driving"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fmipr2019%2f&amp;title=HD%20Map%2c%20Localization%20and%20Self-Driving%20Car"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fmipr2019%2f&amp;title=Towards%20Learning-based%20Localization%20for%20Autonomous%20Driving"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=HD%20Map%2c%20Localization%20and%20Self-Driving%20Car&amp;body=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fmipr2019%2f">
+         href="mailto:?subject=Towards%20Learning-based%20Localization%20for%20Autonomous%20Driving&amp;body=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fmipr2019%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -454,7 +454,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">We make brief introduction of the development history of Baidu self-driving car, Baidu Apollo platform for developers, the techniques behind the Baidu HD Map and our multi-sensor fusion based localization system. We present a robust and precise localization system that achieves centimeter-level localization accuracy in varied city scenes. Our system adaptively uses information from complementary sensors such as GNSS, LiDAR, and IMU to achieve high localization accuracy and robustness in various challenging scenes, including urban downtown, highway, tunnel and so on. Both our HD Map products and localization system have been deployed in a large autonomous driving fleet, and make our vehicles fully autonomous in crowded city streets every day.</p>
+      <p class="pub-abstract" itemprop="text">We present a robust and precise localization system that achieves centimeter-level localization accuracy in varied city scenes. Our system adaptively uses information from complementary sensors such as GNSS, LiDAR, and IMU to achieve high localization accuracy and robustness in various challenging scenes, including urban downtown, highway, tunnel and so on. Moving forward, we introduce our latest work in exploring learning-based localization system. It leverages the help of the deep neural network structures to establish a learning-based approach that achieves centimeter-level localization accuracy, comparable to prior state-of-the-art systems with hand-crafted pipelines.</p>
     
 
     <div class="row">
