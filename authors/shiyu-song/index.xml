@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
-    <lastBuildDate>Wed, 28 Mar 2018 09:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 17 Jun 2018 09:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://songshiyu01.github.io/authors/shiyu-song/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Localization and HD Map at Baidu Apollo</title>
+      <link>https://songshiyu01.github.io/talk/cvpr2019/</link>
+      <pubDate>Sun, 17 Jun 2018 09:00:00 -0700</pubDate>
+      
+      <guid>https://songshiyu01.github.io/talk/cvpr2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Localization and HD Map at Baidu IDG</title>
