@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="We make brief introduction of HD Map services at Baidu Apollo platform and the techniques behind our multi-sensor fusion based localization system.">
+  <meta name="description" content="We make a brief introduction of the techniques behind our multi-sensor fusion based localization system. We present a robust and precise localization system that achieves centimeter-level localization accuracy in disparate city scenes. The system adaptively uses information from complementary sensors such as GNSS, LiDAR and IMU to achieve high localization accuracy and resilience in challenging scenes, such as urban downtown, highways, and tunnels. In this tutorial, we introduce the technical principles of each individual localization method and the multisensor fusion framework. We also cover our latest work in the exploration of the learning based LiDAR localization method. It&#39;s good for engineers and Ph.D. students who are interested in the vehicle localization system.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://songshiyu01.github.io/talk/cvpr2019/">
@@ -132,20 +132,20 @@
   
   <meta property="og:site_name" content="Shiyu Song">
   <meta property="og:url" content="https://songshiyu01.github.io/talk/cvpr2019/">
-  <meta property="og:title" content="Localization and HD Map at Baidu Apollo | Shiyu Song">
-  <meta property="og:description" content="We make brief introduction of HD Map services at Baidu Apollo platform and the techniques behind our multi-sensor fusion based localization system."><meta property="og:image" content="https://songshiyu01.github.io/img/icon-192.png">
+  <meta property="og:title" content="Inside Apollo: Multisensor Fusion Based Localization | Shiyu Song">
+  <meta property="og:description" content="We make a brief introduction of the techniques behind our multi-sensor fusion based localization system. We present a robust and precise localization system that achieves centimeter-level localization accuracy in disparate city scenes. The system adaptively uses information from complementary sensors such as GNSS, LiDAR and IMU to achieve high localization accuracy and resilience in challenging scenes, such as urban downtown, highways, and tunnels. In this tutorial, we introduce the technical principles of each individual localization method and the multisensor fusion framework. We also cover our latest work in the exploration of the learning based LiDAR localization method. It&#39;s good for engineers and Ph.D. students who are interested in the vehicle localization system."><meta property="og:image" content="https://songshiyu01.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-06-17T09:00:00&#43;08:00">
+  <meta property="article:published_time" content="2018-06-17T09:00:00-07:00">
   
-  <meta property="article:modified_time" content="2018-06-17T09:00:00&#43;08:00">
-  
-
+  <meta property="article:modified_time" content="2018-06-17T09:00:00-07:00">
   
 
   
 
-  <title>Localization and HD Map at Baidu Apollo | Shiyu Song</title>
+  
+
+  <title>Inside Apollo: Multisensor Fusion Based Localization | Shiyu Song</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -344,7 +344,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Localization and HD Map at Baidu Apollo</h1>
+  <h1 itemprop="name">Inside Apollo: Multisensor Fusion Based Localization</h1>
 
   
 
@@ -352,8 +352,8 @@
     
 
 
-<meta content="2018-06-17 09:00:00 &#43;0800 CST" itemprop="datePublished">
-<meta content="2018-06-17 09:00:00 &#43;0800 CST" itemprop="dateModified">
+<meta content="2018-06-17 09:00:00 -0700 PDT" itemprop="datePublished">
+<meta content="2018-06-17 09:00:00 -0700 PDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -387,7 +387,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Localization%20and%20HD%20Map%20at%20Baidu%20Apollo&amp;url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fcvpr2019%2f"
+         href="https://twitter.com/intent/tweet?text=Inside%20Apollo%3a%20Multisensor%20Fusion%20Based%20Localization&amp;url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fcvpr2019%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -401,21 +401,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fcvpr2019%2f&amp;title=Localization%20and%20HD%20Map%20at%20Baidu%20Apollo"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fcvpr2019%2f&amp;title=Inside%20Apollo%3a%20Multisensor%20Fusion%20Based%20Localization"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fcvpr2019%2f&amp;title=Localization%20and%20HD%20Map%20at%20Baidu%20Apollo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fcvpr2019%2f&amp;title=Inside%20Apollo%3a%20Multisensor%20Fusion%20Based%20Localization"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Localization%20and%20HD%20Map%20at%20Baidu%20Apollo&amp;body=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fcvpr2019%2f">
+         href="mailto:?subject=Inside%20Apollo%3a%20Multisensor%20Fusion%20Based%20Localization&amp;body=https%3a%2f%2fsongshiyu01.github.io%2ftalk%2fcvpr2019%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -454,7 +454,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">We make brief introduction of HD Map services at Baidu Apollo platform and the techniques behind our multi-sensor fusion based localization system.</p>
+      <p class="pub-abstract" itemprop="text">We make a brief introduction of the techniques behind our multi-sensor fusion based localization system. We present a robust and precise localization system that achieves centimeter-level localization accuracy in disparate city scenes. The system adaptively uses information from complementary sensors such as GNSS, LiDAR and IMU to achieve high localization accuracy and resilience in challenging scenes, such as urban downtown, highways, and tunnels. In this tutorial, we introduce the technical principles of each individual localization method and the multisensor fusion framework. We also cover our latest work in the exploration of the learning based LiDAR localization method. It&rsquo;s good for engineers and Ph.D. students who are interested in the vehicle localization system.</p>
     
 
     <div class="row">
