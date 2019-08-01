@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="We present L3-Net - a novel learning-based LiDAR localization system that achieves centimeter-level localization accuracy, comparable to prior state-of-the-art systems with hand-crafted pipelines. Rather than relying on these hand-crafted modules, we innovatively implement the use of various deep neural network structures to establish a learning-based approach. L3-Net learns local descriptors specifically optimized for matching in different real-world driving scenarios. 3D convolutions over a cost volume built in the solution space significantly boosts the localization accuracy. RNNs are demonstrated to be effective in modeling the vehicle&#39;s dynamics, yielding better temporal smoothness and accuracy. We comprehensively validate the effectiveness of our approach using freshly collected datasets. Multiple trials of repetitive data collection over the same road and areas make our dataset ideal for testing localization systems. The  SunnyvaleBigLoop sequences, with a year&#39;s time interval between the collected mapping and testing data, made it quite challenging, but the low localization error of our method in these datasets demonstrates its maturity for real industrial implementation.">
+  <meta name="description" content="We present DeepVCP - a novel end-to-end learning-based 3D point cloud registration framework that achieves comparable registration accuracy to prior state-of-the-art geometric methods. Different from other keypoint based methods where a RANSAC procedure is usually needed, we implement the use of various deep neural network structures to establish an end-to-end trainable network. Our keypoint detector is trained through this end-to-end structure and enables the system to avoid the inference of dynamic objects, leverages the help of sufficiently salient features on stationary objects, and as a result, achieves high robustness. Rather than searching the corresponding points among existing points, the key contribution is that we innovatively generate them based on learned matching probabilities among a group of candidates, which can boost the registration accuracy. Our loss function incorporates both the local similarity and the global geometric constraints to ensure all above network designs can converge towards the right direction. We comprehensively validate the effectiveness of our approach using the KITTI, the Apollo-SouthBay and the 3DMatch dataset. Results demonstrate that our method achieves comparable or better performance than the state-of-the-art geometry-based methods. Detailed ablation and visualization analysis are included to further illustrate the behavior and insights of our network. The low registration error and high robustness of our method makes it attractive for substantial applications relying on the point cloud registration task.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://songshiyu01.github.io/publication/cvpr2019_localization/">
+  <link rel="alternate" hreflang="en-us" href="https://songshiyu01.github.io/publication/iccv2019_registration/">
 
   
 
@@ -119,7 +119,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://songshiyu01.github.io/publication/cvpr2019_localization/">
+  <link rel="canonical" href="https://songshiyu01.github.io/publication/iccv2019_registration/">
 
   
   
@@ -130,21 +130,21 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Shiyu Song">
-  <meta property="og:url" content="https://songshiyu01.github.io/publication/cvpr2019_localization/">
-  <meta property="og:title" content="L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving | Shiyu Song">
-  <meta property="og:description" content="We present L3-Net - a novel learning-based LiDAR localization system that achieves centimeter-level localization accuracy, comparable to prior state-of-the-art systems with hand-crafted pipelines. Rather than relying on these hand-crafted modules, we innovatively implement the use of various deep neural network structures to establish a learning-based approach. L3-Net learns local descriptors specifically optimized for matching in different real-world driving scenarios. 3D convolutions over a cost volume built in the solution space significantly boosts the localization accuracy. RNNs are demonstrated to be effective in modeling the vehicle&#39;s dynamics, yielding better temporal smoothness and accuracy. We comprehensively validate the effectiveness of our approach using freshly collected datasets. Multiple trials of repetitive data collection over the same road and areas make our dataset ideal for testing localization systems. The  SunnyvaleBigLoop sequences, with a year&#39;s time interval between the collected mapping and testing data, made it quite challenging, but the low localization error of our method in these datasets demonstrates its maturity for real industrial implementation."><meta property="og:image" content="https://songshiyu01.github.io/publication/cvpr2019_localization/featured.png">
+  <meta property="og:url" content="https://songshiyu01.github.io/publication/iccv2019_registration/">
+  <meta property="og:title" content="DeepVCP: An End-to-End Deep Neural Network for 3D Point Cloud Registration | Shiyu Song">
+  <meta property="og:description" content="We present DeepVCP - a novel end-to-end learning-based 3D point cloud registration framework that achieves comparable registration accuracy to prior state-of-the-art geometric methods. Different from other keypoint based methods where a RANSAC procedure is usually needed, we implement the use of various deep neural network structures to establish an end-to-end trainable network. Our keypoint detector is trained through this end-to-end structure and enables the system to avoid the inference of dynamic objects, leverages the help of sufficiently salient features on stationary objects, and as a result, achieves high robustness. Rather than searching the corresponding points among existing points, the key contribution is that we innovatively generate them based on learned matching probabilities among a group of candidates, which can boost the registration accuracy. Our loss function incorporates both the local similarity and the global geometric constraints to ensure all above network designs can converge towards the right direction. We comprehensively validate the effectiveness of our approach using the KITTI, the Apollo-SouthBay and the 3DMatch dataset. Results demonstrate that our method achieves comparable or better performance than the state-of-the-art geometry-based methods. Detailed ablation and visualization analysis are included to further illustrate the behavior and insights of our network. The low registration error and high robustness of our method makes it attractive for substantial applications relying on the point cloud registration task."><meta property="og:image" content="https://songshiyu01.github.io/publication/iccv2019_registration/featured.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-02-16T00:00:00&#43;08:00">
+  <meta property="article:published_time" content="2019-06-16T00:00:00&#43;08:00">
   
-  <meta property="article:modified_time" content="2019-02-16T00:00:00&#43;08:00">
-  
-
+  <meta property="article:modified_time" content="2019-06-16T00:00:00&#43;08:00">
   
 
   
 
-  <title>L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving | Shiyu Song</title>
+  
+
+  <title>DeepVCP: An End-to-End Deep Neural Network for 3D Point Cloud Registration | Shiyu Song</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -339,7 +339,7 @@
 
 
 <div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/publication/cvpr2019_localization/featured_hu9dbd353708198e1e9f8c6efceb37d6c5_313319_800x0_resize_box_2.png');"></div>
+  <div class="featured-image" style="background-image: url('/publication/iccv2019_registration/featured_hu76320b6e315ea433f9ca57515fb804d4_1312361_800x0_resize_box_2.png');"></div>
   
 </div>
 
@@ -348,15 +348,15 @@
   <div class="row">
     <div class="col-6">
       <div class="split-header-content">
-        <h1 itemprop="name">L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving</h1>
+        <h1 itemprop="name">DeepVCP: An End-to-End Deep Neural Network for 3D Point Cloud Registration</h1>
 
         
 
         
 
 
-<meta content="2019-02-16 00:00:00 &#43;0800 CST" itemprop="datePublished">
-<meta content="2019-02-16 00:00:00 &#43;0800 CST" itemprop="dateModified">
+<meta content="2019-06-16 00:00:00 &#43;0800 CST" itemprop="datePublished">
+<meta content="2019-06-16 00:00:00 &#43;0800 CST" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -372,17 +372,22 @@
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        <a href="/authors/yao-zhou/">Yao Zhou</a>
-      </span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
         <a href="/authors/guowei-wan/">Guowei Wan</a>
       </span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        <a href="/authors/shenhua-hou/">Shenhua Hou</a>
+        <a href="/authors/yao-zhou/">Yao Zhou</a>
+      </span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        <a href="/authors/xiangyu-fu/">Xiangyu Fu</a>
+      </span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        <a href="/authors/pengfei-yuan/">Pengfei Yuan</a>
       </span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
@@ -401,7 +406,7 @@
     
       
     
-    <time>February, 2019</time>
+    <time>June, 2019</time>
   </span>
   
 
@@ -434,65 +439,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/L3Net_W.Lu_Y.Zhou_S.Song_CVPR2019.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="http://data.apollo.auto" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/msf_localization/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/dptbd4D78Mk" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-</div>
-
 
 
         
@@ -500,35 +446,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=L3-Net%3a%20Towards%20Learning%20based%20LiDAR%20Localization%20for%20Autonomous%20Driving&amp;url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f"
+         href="https://twitter.com/intent/tweet?text=DeepVCP%3a%20An%20End-to-End%20Deep%20Neural%20Network%20for%203D%20Point%20Cloud%20Registration&amp;url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f&amp;title=L3-Net%3a%20Towards%20Learning%20based%20LiDAR%20Localization%20for%20Autonomous%20Driving"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f&amp;title=DeepVCP%3a%20An%20End-to-End%20Deep%20Neural%20Network%20for%203D%20Point%20Cloud%20Registration"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f&amp;title=L3-Net%3a%20Towards%20Learning%20based%20LiDAR%20Localization%20for%20Autonomous%20Driving"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f&amp;title=DeepVCP%3a%20An%20End-to-End%20Deep%20Neural%20Network%20for%203D%20Point%20Cloud%20Registration"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=L3-Net%3a%20Towards%20Learning%20based%20LiDAR%20Localization%20for%20Autonomous%20Driving&amp;body=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f">
+         href="mailto:?subject=DeepVCP%3a%20An%20End-to-End%20Deep%20Neural%20Network%20for%203D%20Point%20Cloud%20Registration&amp;body=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -540,7 +486,7 @@
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="/publication/cvpr2019_localization/featured_hu9dbd353708198e1e9f8c6efceb37d6c5_313319_680x500_fill_q90_box_smart1_2.png" itemprop="image" alt="">
+        <img src="/publication/iccv2019_registration/featured_hu76320b6e315ea433f9ca57515fb804d4_1312361_680x500_fill_q90_box_smart1_2.png" itemprop="image" alt="">
         
       </div>
     </div>
@@ -548,15 +494,15 @@
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving</h1>
+  <h1 itemprop="name">DeepVCP: An End-to-End Deep Neural Network for 3D Point Cloud Registration</h1>
 
   
 
   
 
 
-<meta content="2019-02-16 00:00:00 &#43;0800 CST" itemprop="datePublished">
-<meta content="2019-02-16 00:00:00 &#43;0800 CST" itemprop="dateModified">
+<meta content="2019-06-16 00:00:00 &#43;0800 CST" itemprop="datePublished">
+<meta content="2019-06-16 00:00:00 &#43;0800 CST" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -572,17 +518,22 @@
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        <a href="/authors/yao-zhou/">Yao Zhou</a>
-      </span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
         <a href="/authors/guowei-wan/">Guowei Wan</a>
       </span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        <a href="/authors/shenhua-hou/">Shenhua Hou</a>
+        <a href="/authors/yao-zhou/">Yao Zhou</a>
+      </span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        <a href="/authors/xiangyu-fu/">Xiangyu Fu</a>
+      </span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        <a href="/authors/pengfei-yuan/">Pengfei Yuan</a>
       </span>
     </span>, 
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
@@ -601,7 +552,7 @@
     
       
     
-    <time>February, 2019</time>
+    <time>June, 2019</time>
   </span>
   
 
@@ -618,35 +569,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=L3-Net%3a%20Towards%20Learning%20based%20LiDAR%20Localization%20for%20Autonomous%20Driving&amp;url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f"
+         href="https://twitter.com/intent/tweet?text=DeepVCP%3a%20An%20End-to-End%20Deep%20Neural%20Network%20for%203D%20Point%20Cloud%20Registration&amp;url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f&amp;title=L3-Net%3a%20Towards%20Learning%20based%20LiDAR%20Localization%20for%20Autonomous%20Driving"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f&amp;title=DeepVCP%3a%20An%20End-to-End%20Deep%20Neural%20Network%20for%203D%20Point%20Cloud%20Registration"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f&amp;title=L3-Net%3a%20Towards%20Learning%20based%20LiDAR%20Localization%20for%20Autonomous%20Driving"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f&amp;title=DeepVCP%3a%20An%20End-to-End%20Deep%20Neural%20Network%20for%203D%20Point%20Cloud%20Registration"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=L3-Net%3a%20Towards%20Learning%20based%20LiDAR%20Localization%20for%20Autonomous%20Driving&amp;body=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2fcvpr2019_localization%2f">
+         href="mailto:?subject=DeepVCP%3a%20An%20End-to-End%20Deep%20Neural%20Network%20for%203D%20Point%20Cloud%20Registration&amp;body=https%3a%2f%2fsongshiyu01.github.io%2fpublication%2ficcv2019_registration%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -676,65 +627,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/L3Net_W.Lu_Y.Zhou_S.Song_CVPR2019.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="http://data.apollo.auto" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/msf_localization/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/dptbd4D78Mk" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-</div>
-
 
 </div>
 
@@ -744,7 +636,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present L3-Net - a novel learning-based LiDAR localization system that achieves centimeter-level localization accuracy, comparable to prior state-of-the-art systems with hand-crafted pipelines. Rather than relying on these hand-crafted modules, we innovatively implement the use of various deep neural network structures to establish a learning-based approach. L3-Net learns local descriptors specifically optimized for matching in different real-world driving scenarios. 3D convolutions over a cost volume built in the solution space significantly boosts the localization accuracy. RNNs are demonstrated to be effective in modeling the vehicle&rsquo;s dynamics, yielding better temporal smoothness and accuracy. We comprehensively validate the effectiveness of our approach using freshly collected datasets. Multiple trials of repetitive data collection over the same road and areas make our dataset ideal for testing localization systems. The  SunnyvaleBigLoop sequences, with a year&rsquo;s time interval between the collected mapping and testing data, made it quite challenging, but the low localization error of our method in these datasets demonstrates its maturity for real industrial implementation.</p>
+    <p class="pub-abstract" itemprop="text">We present DeepVCP - a novel end-to-end learning-based 3D point cloud registration framework that achieves comparable registration accuracy to prior state-of-the-art geometric methods. Different from other keypoint based methods where a RANSAC procedure is usually needed, we implement the use of various deep neural network structures to establish an end-to-end trainable network. Our keypoint detector is trained through this end-to-end structure and enables the system to avoid the inference of dynamic objects, leverages the help of sufficiently salient features on stationary objects, and as a result, achieves high robustness. Rather than searching the corresponding points among existing points, the key contribution is that we innovatively generate them based on learned matching probabilities among a group of candidates, which can boost the registration accuracy. Our loss function incorporates both the local similarity and the global geometric constraints to ensure all above network designs can converge towards the right direction. We comprehensively validate the effectiveness of our approach using the KITTI, the Apollo-SouthBay and the 3DMatch dataset. Results demonstrate that our method achieves comparable or better performance than the state-of-the-art geometry-based methods. Detailed ablation and visualization analysis are included to further illustrate the behavior and insights of our network. The low registration error and high robustness of our method makes it attractive for substantial applications relying on the point cloud registration task.</p>
     
 
     
@@ -773,7 +665,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)</em>, IEEE.</div>
+          <div class="col-12 col-md-9"><em>International Conference on Computer Vision (ICCV)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>

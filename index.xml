@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DeepVCP: An End-to-End Deep Neural Network for 3D Point Cloud Registration</title>
+      <link>https://songshiyu01.github.io/publication/iccv2019_registration/</link>
+      <pubDate>Sun, 16 Jun 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://songshiyu01.github.io/publication/iccv2019_registration/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DeepICP: An End-to-End Deep Neural Network for 3D Point Cloud Registration</title>
@@ -22,7 +31,7 @@
     <item>
       <title>L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving</title>
       <link>https://songshiyu01.github.io/publication/cvpr2019_localization/</link>
-      <pubDate>Sat, 16 Feb 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 16 Feb 2019 00:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/publication/cvpr2019_localization/</guid>
       <description></description>
@@ -31,7 +40,7 @@
     <item>
       <title>Inside Apollo: Multisensor Fusion Based Localization</title>
       <link>https://songshiyu01.github.io/talk/cvpr2019/</link>
-      <pubDate>Sun, 17 Jun 2018 09:00:00 -0700</pubDate>
+      <pubDate>Sun, 17 Jun 2018 09:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/talk/cvpr2019/</guid>
       <description></description>
@@ -40,7 +49,7 @@
     <item>
       <title>Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes</title>
       <link>https://songshiyu01.github.io/publication/icra2018_localization/</link>
-      <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/publication/icra2018_localization/</guid>
       <description></description>
@@ -49,7 +58,7 @@
     <item>
       <title>Localization and HD Map at Baidu IDG</title>
       <link>https://songshiyu01.github.io/talk/baiduai2018/</link>
-      <pubDate>Wed, 28 Mar 2018 09:00:00 -0700</pubDate>
+      <pubDate>Wed, 28 Mar 2018 09:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/talk/baiduai2018/</guid>
       <description></description>
@@ -58,7 +67,7 @@
     <item>
       <title>Towards Learning-based Localization for Autonomous Driving</title>
       <link>https://songshiyu01.github.io/talk/mipr2019/</link>
-      <pubDate>Wed, 28 Mar 2018 09:00:00 -0700</pubDate>
+      <pubDate>Wed, 28 Mar 2018 09:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/talk/mipr2019/</guid>
       <description></description>
@@ -76,7 +85,7 @@
     <item>
       <title>HD Map, Localization and Self-Driving Car</title>
       <link>https://songshiyu01.github.io/talk/isprs2017/</link>
-      <pubDate>Tue, 19 Sep 2017 09:00:00 -0700</pubDate>
+      <pubDate>Tue, 19 Sep 2017 09:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/talk/isprs2017/</guid>
       <description></description>
@@ -85,7 +94,7 @@
     <item>
       <title>High Accuracy Monocular SFM and Scale Correction for Autonomous Driving</title>
       <link>https://songshiyu01.github.io/publication/pami2016_monovo/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/publication/pami2016_monovo/</guid>
       <description></description>
@@ -94,7 +103,7 @@
     <item>
       <title>Multi-sensor Fusion based Localization System</title>
       <link>https://songshiyu01.github.io/project/msf_localization/</link>
-      <pubDate>Mon, 02 Nov 2015 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 02 Nov 2015 00:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/project/msf_localization/</guid>
       <description>
@@ -143,7 +152,7 @@
     <item>
       <title>Joint SFM and Detection Cues for Monocular 3D Localization in Road Scenes</title>
       <link>https://songshiyu01.github.io/publication/cvpr2015_object/</link>
-      <pubDate>Mon, 08 Jun 2015 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 08 Jun 2015 00:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/publication/cvpr2015_object/</guid>
       <description></description>
@@ -152,7 +161,7 @@
     <item>
       <title>Robust Scale Estimation in Real-Time Monocular SFM for Autonomous Driving</title>
       <link>https://songshiyu01.github.io/publication/cvpr2014_monovo/</link>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/publication/cvpr2014_monovo/</guid>
       <description></description>
@@ -161,7 +170,7 @@
     <item>
       <title>Parallel, Real-Time Monocular Visual Odometry</title>
       <link>https://songshiyu01.github.io/publication/icra2013_monovo/</link>
-      <pubDate>Mon, 06 May 2013 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 06 May 2013 00:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/publication/icra2013_monovo/</guid>
       <description></description>
@@ -170,7 +179,7 @@
     <item>
       <title>Monocular Visual Odometry</title>
       <link>https://songshiyu01.github.io/project/monocular_vo/</link>
-      <pubDate>Sat, 18 Feb 2012 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 18 Feb 2012 00:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/project/monocular_vo/</guid>
       <description>
