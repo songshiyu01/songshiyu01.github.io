@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://songshiyu01.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Biography</title>
       <link>https://songshiyu01.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/about/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Selected Publications</title>
       <link>https://songshiyu01.github.io/home/publications_featured/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/publications_featured/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Recent Publications</title>
       <link>https://songshiyu01.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/publications/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Featured Talks</title>
       <link>https://songshiyu01.github.io/home/talks_featured/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/talks_featured/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://songshiyu01.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/talks/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Projects</title>
       <link>https://songshiyu01.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/projects/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>Contact</title>
       <link>https://songshiyu01.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/home/contact/</guid>
       <description></description>

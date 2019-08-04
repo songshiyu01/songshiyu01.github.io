@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
-    <lastBuildDate>Fri, 01 Apr 2016 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 Apr 2016 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://songshiyu01.github.io/authors/clark-c.-guest/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>High Accuracy Monocular SFM and Scale Correction for Autonomous Driving</title>
       <link>https://songshiyu01.github.io/publication/pami2016_monovo/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/publication/pami2016_monovo/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Parallel, Real-Time Monocular Visual Odometry</title>
       <link>https://songshiyu01.github.io/publication/icra2013_monovo/</link>
-      <pubDate>Mon, 06 May 2013 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 06 May 2013 00:00:00 -0700</pubDate>
       
       <guid>https://songshiyu01.github.io/publication/icra2013_monovo/</guid>
       <description></description>
