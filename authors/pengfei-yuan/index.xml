@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
-    <lastBuildDate>Sun, 16 Jun 2019 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://songshiyu01.github.io/authors/pengfei-yuan/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration</title>
       <link>https://songshiyu01.github.io/publication/iccv2019_registration/</link>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 16 Jun 2019 00:00:00 +0800</pubDate>
       
       <guid>https://songshiyu01.github.io/publication/iccv2019_registration/</guid>
       <description></description>
