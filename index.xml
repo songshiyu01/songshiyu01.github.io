@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shiyu Song on Shiyu Song</title>
+    <title>Shiyu Song</title>
     <link>https://songshiyu01.github.io/</link>
-    <description>Recent content in Shiyu Song on Shiyu Song</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+      <atom:link href="https://songshiyu01.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shiyu Song</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Mon, 20 Jan 2020 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Shiyu Song</title>
+      <link>https://songshiyu01.github.io/</link>
+    </image>
+    
+    <item>
+      <title>LiDAR Inertial Odometry Aided Robust LiDAR Localization System in Changing City Scenes</title>
+      <link>https://songshiyu01.github.io/publication/icra2020_lio/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>https://songshiyu01.github.io/publication/icra2020_lio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inside Apollo: Multisensor Fusion Based Localization</title>
+      <link>https://songshiyu01.github.io/talk/cvpr2019/</link>
+      <pubDate>Mon, 17 Jun 2019 09:00:00 -0700</pubDate>
+      <guid>https://songshiyu01.github.io/talk/cvpr2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration</title>
       <link>https://songshiyu01.github.io/publication/iccv2019_registration/</link>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 +0800</pubDate>
-      
+      <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/publication/iccv2019_registration/</guid>
       <description></description>
     </item>
@@ -23,34 +40,30 @@
       <title>DeepICP: An End-to-End Deep Neural Network for 3D Point Cloud Registration</title>
       <link>https://songshiyu01.github.io/publication/arxiv2019_registration/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://songshiyu01.github.io/publication/arxiv2019_registration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Learning-based Localization for Autonomous Driving</title>
+      <link>https://songshiyu01.github.io/talk/mipr2019/</link>
+      <pubDate>Thu, 28 Mar 2019 09:00:00 -0700</pubDate>
+      <guid>https://songshiyu01.github.io/talk/mipr2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving</title>
       <link>https://songshiyu01.github.io/publication/cvpr2019_localization/</link>
-      <pubDate>Sat, 16 Feb 2019 00:00:00 +0800</pubDate>
-      
+      <pubDate>Sat, 16 Feb 2019 00:00:00 -0800</pubDate>
       <guid>https://songshiyu01.github.io/publication/cvpr2019_localization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inside Apollo: Multisensor Fusion Based Localization</title>
-      <link>https://songshiyu01.github.io/talk/cvpr2019/</link>
-      <pubDate>Sun, 17 Jun 2018 09:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/talk/cvpr2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes</title>
       <link>https://songshiyu01.github.io/publication/icra2018_localization/</link>
-      <pubDate>Mon, 21 May 2018 00:00:00 +0800</pubDate>
-      
+      <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/publication/icra2018_localization/</guid>
       <description></description>
     </item>
@@ -58,18 +71,8 @@
     <item>
       <title>Localization and HD Map at Baidu IDG</title>
       <link>https://songshiyu01.github.io/talk/baiduai2018/</link>
-      <pubDate>Wed, 28 Mar 2018 09:00:00 +0800</pubDate>
-      
+      <pubDate>Wed, 28 Mar 2018 09:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/talk/baiduai2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards Learning-based Localization for Autonomous Driving</title>
-      <link>https://songshiyu01.github.io/talk/mipr2019/</link>
-      <pubDate>Wed, 28 Mar 2018 09:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/talk/mipr2019/</guid>
       <description></description>
     </item>
     
@@ -77,7 +80,6 @@
       <title>Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes</title>
       <link>https://songshiyu01.github.io/publication/arxiv2017_localization/</link>
       <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://songshiyu01.github.io/publication/arxiv2017_localization/</guid>
       <description></description>
     </item>
@@ -85,8 +87,7 @@
     <item>
       <title>HD Map, Localization and Self-Driving Car</title>
       <link>https://songshiyu01.github.io/talk/isprs2017/</link>
-      <pubDate>Tue, 19 Sep 2017 09:00:00 +0800</pubDate>
-      
+      <pubDate>Tue, 19 Sep 2017 09:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/talk/isprs2017/</guid>
       <description></description>
     </item>
@@ -94,8 +95,7 @@
     <item>
       <title>High Accuracy Monocular SFM and Scale Correction for Autonomous Driving</title>
       <link>https://songshiyu01.github.io/publication/pami2016_monovo/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0800</pubDate>
-      
+      <pubDate>Fri, 01 Apr 2016 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/publication/pami2016_monovo/</guid>
       <description></description>
     </item>
@@ -103,47 +103,29 @@
     <item>
       <title>Multi-sensor Fusion based Localization System</title>
       <link>https://songshiyu01.github.io/project/msf_localization/</link>
-      <pubDate>Mon, 02 Nov 2015 00:00:00 +0800</pubDate>
-      
+      <pubDate>Mon, 02 Nov 2015 00:00:00 -0800</pubDate>
       <guid>https://songshiyu01.github.io/project/msf_localization/</guid>
-      <description>
-
-&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 &lt;p&gt;We present a robust and precise localization system that achieves centimeter-level localization accuracy in disparate city scenes. Our system adaptively uses information from complementary sensors such as GNSS, LiDAR, and IMU to achieve high localization accuracy and resilience in challenging scenes, such as urban downtown, highways, and tunnels. Rather than relying only on LiDAR intensity or 3D geometry, we make innovative use of LiDAR intensity and altitude cues to significantly improve localization system accuracy and robustness. Our GNSS RTK module utilizes the help of the multi-sensor fusion framework and achieves a better ambiguity resolution success rate. An error-state Kalman filter is applied to fuse the localization measurements from different sources with novel uncertainty estimation. We validate, in detail, the effectiveness of our approaches, achieving 5-10cm RMS accuracy and outperforming previous state-of-the-art systems. Importantly, our system, while deployed in a large autonomous driving fleet, made our vehicles fully autonomous in crowded city streets despite road construction that occurred from time to time. A dataset including more than 60 km real traffic driving in various urban roads is used to comprehensively test our system.&lt;/p&gt;
-
 &lt;h3 id=&#34;sensors&#34;&gt;Sensors&lt;/h3&gt;
-
 &lt;p&gt;Our autonomous vehicle is equipped with a Velodyne LiDAR HDL-64E. An integrated navigation system, NovAtel ProPak6 plus NovAtel IMU-IGM-A1, is installed for raw sensor data collection, such as GNSS pseudo range and carrier wave, IMU specific force and rotation rate. The built-in tightly integrated inertial and satellite navigation solution was not used. A computing platform equipped with Dual Xeon E5-2658 v3 12 cores, and a Xilinx KU115 FPGA chip with 55% utilization for LiDAR localization.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/msf_localization_sensors.png&#34; alt=&#34;Sensor configuration&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/msf_localization_sensors.png&#34; alt=&#34;Sensor configuration&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;framework&#34;&gt;Framework&lt;/h3&gt;
-
 &lt;p&gt;Overview of the architecture of our system that estimates the optimal position, velocity, attitude (PVA) of the autonomous vehicle using a loosely coupled error-state-Kalman filter. It combines sensor input (purple) with pre-built LiDAR map (yellow). GNSS and LiDAR estimate the PVA used by an error-state Kalman filter as the measurements, while the Kalman filter provides the predicted prior PVA. The strap-down inertial navigation system (SINS) is used as a prediction model in the Kalman filter propagation phase by integrating the specific force $f^b$ measured by the accelerometer and the rotation rate $\omega_{ib}^b$ measured by the gyroscope. The corrections including the bias of accelerometer and gyroscope, the errors of PVA, etc estimated by the Kalman filter are fed to the SINS.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/msf_localization_framework.png&#34; alt=&#34;System framework&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/msf_localization_framework.png&#34; alt=&#34;System framework&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;accuracy&#34;&gt;Accuracy&lt;/h3&gt;
-
 &lt;p&gt;Our system has been extensively tested in real-world driving scenarios. We compare our localization performance against the state-of-the-art intensity-based localization method proposed by Levinson et al. [12] and the built-in tightly-coupled GNSS/IMU integrated solution in the commercial product. In order to explicitly demonstrate the contribution of different sensors, the test results of our proposed system are shown in two modes:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;2-Systems: LiDAR + IMU&lt;/li&gt;
 &lt;li&gt;3-Systems: LiDAR + GNSS + IMU.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;In the table, we show the quantitative results in both regular or weak GNSS roads. Note our vast performance improvement over [12] and the robust and accurate localization results in both regular and weak GNSS scenarios with centimeter level accuracy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/msf_localization_accuracy.png&#34; alt=&#34;System accuracy&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/msf_localization_accuracy.png&#34; alt=&#34;System accuracy&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;videos&#34;&gt;Videos&lt;/h3&gt;
-
 &lt;p&gt;These videos provide a brief description of the project and demonstrate the performance of the localization system.&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/8wRs_TaAfUk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8wRs_TaAfUk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -152,8 +134,7 @@
     <item>
       <title>Joint SFM and Detection Cues for Monocular 3D Localization in Road Scenes</title>
       <link>https://songshiyu01.github.io/publication/cvpr2015_object/</link>
-      <pubDate>Mon, 08 Jun 2015 00:00:00 +0800</pubDate>
-      
+      <pubDate>Mon, 08 Jun 2015 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/publication/cvpr2015_object/</guid>
       <description></description>
     </item>
@@ -161,8 +142,7 @@
     <item>
       <title>Robust Scale Estimation in Real-Time Monocular SFM for Autonomous Driving</title>
       <link>https://songshiyu01.github.io/publication/cvpr2014_monovo/</link>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0800</pubDate>
-      
+      <pubDate>Tue, 24 Jun 2014 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/publication/cvpr2014_monovo/</guid>
       <description></description>
     </item>
@@ -170,8 +150,7 @@
     <item>
       <title>Parallel, Real-Time Monocular Visual Odometry</title>
       <link>https://songshiyu01.github.io/publication/icra2013_monovo/</link>
-      <pubDate>Mon, 06 May 2013 00:00:00 +0800</pubDate>
-      
+      <pubDate>Mon, 06 May 2013 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/publication/icra2013_monovo/</guid>
       <description></description>
     </item>
@@ -179,58 +158,37 @@
     <item>
       <title>Monocular Visual Odometry</title>
       <link>https://songshiyu01.github.io/project/monocular_vo/</link>
-      <pubDate>Sat, 18 Feb 2012 00:00:00 +0800</pubDate>
-      
+      <pubDate>Sat, 18 Feb 2012 00:00:00 -0800</pubDate>
       <guid>https://songshiyu01.github.io/project/monocular_vo/</guid>
-      <description>
-
-&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 &lt;p&gt;Scale drift is a crucial challenge for monocular autonomous driving to emulate the performance of stereo. This paper presents a real-time monocular SFM system that corrects for scale drift using a novel cue combination framework for ground plane estimation, yielding accuracy comparable to stereo over long driving sequences. Our ground plane estimation uses multiple cues like sparse features, dense inter-frame stereo and (when applicable) object detection. A data-driven mechanism is proposed to learn models from training data that relate observation covariances for each cue to error behavior of its underlying variables. During testing, this allows per-frame adaptation of observation covariances based on relative confidences inferred from visual data. Our framework significantly boosts not only the accuracy of monocular self-localization, but also that of applications like object localization that rely on the ground plane. Experiments on the KITTI dataset demonstrate the accuracy of our ground plane estimation, monocular SFM and object localization relative to ground truth, with detailed comparisons to prior art.&lt;/p&gt;
-
 &lt;h3 id=&#34;accuracy&#34;&gt;Accuracy&lt;/h3&gt;
-
 &lt;p&gt;We demonstrate our performance on the KITTI dataset. For camera self-localization, our purely vision-based system achieves a rotation error of 0.005 degrees per meter and a translation error of 2.5%, which compares favorably even to state-of-the-art stereo systems and significantly outperforms other monocular systems. For 3D localization of other traffic participants like cars, we achieve low errors of 8% for near objects (within 30 meters) and 12% for far objects (beyond 30 meters).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/monocular_vo_overview.png&#34; alt=&#34;The overview of the monocular visual odometry system&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/monocular_vo_overview.png&#34; alt=&#34;The overview of the monocular visual odometry system&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;cue-combination&#34;&gt;Cue combination&lt;/h3&gt;
-
 &lt;p&gt;The main challenge in monocular SFM is scale drift, since unlike the case of stereo, there is no reference baseline. We overcome this challenge with a novel cue combination framework, that combines information from 3D points, inter-frame stereo and object detection.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/monocular_vo_cue.png&#34; alt=&#34;The cue combination of the monocular visual odometry system&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/monocular_vo_cue.png&#34; alt=&#34;The cue combination of the monocular visual odometry system&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;comparison-to-other-systems&#34;&gt;Comparison to other systems&lt;/h3&gt;
-
 &lt;p&gt;Our real-time monocular SFM is comparable in accuracy to state-of-the-art stereo systems and significantly outperforms other monocular systems. A few example sequences are shown here from the KITTI benchmark.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/monocular_vo_comparison.png&#34; alt=&#34;The comparison to other systems&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://songshiyu01.github.io/img/monocular_vo_comparison.png&#34; alt=&#34;The comparison to other systems&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;videos&#34;&gt;Videos&lt;/h3&gt;
-
 &lt;p&gt;These videos provide a 1-minute description of the paper and demonstrate the monocular visual odometry and 3D object localization results.&lt;/p&gt;
-
 &lt;h5 id=&#34;overview&#34;&gt;Overview&lt;/h5&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/RN-WHId0tek&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/RN-WHId0tek&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
 
 &lt;h5 id=&#34;3d-object-localization&#34;&gt;3D object localization&lt;/h5&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/_uxX_DlJ0CI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_uxX_DlJ0CI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
 
 &lt;h5 id=&#34;monocular-visual-odometry&#34;&gt;Monocular visual odometry&lt;/h5&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/7orRPfRbhUs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/7orRPfRbhUs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>

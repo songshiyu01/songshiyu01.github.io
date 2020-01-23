@@ -1,112 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Shiyu Song</title>
+    <title>Authors | Shiyu Song</title>
     <link>https://songshiyu01.github.io/authors/</link>
-    <description>Recent content in Authors on Shiyu Song</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright>
-    <lastBuildDate>Sun, 16 Jun 2019 00:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://songshiyu01.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://songshiyu01.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Mon, 20 Jan 2020 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>https://songshiyu01.github.io/authors/</link>
+    </image>
     
     <item>
       <title>**Shiyu Song**</title>
       <link>https://songshiyu01.github.io/authors/shiyu-song/</link>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 +0800</pubDate>
-      
+      <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
       <guid>https://songshiyu01.github.io/authors/shiyu-song/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clark C. Guest</title>
-      <link>https://songshiyu01.github.io/authors/clark-c.-guest/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/authors/clark-c.-guest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guowei Wan</title>
       <link>https://songshiyu01.github.io/authors/guowei-wan/</link>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 +0800</pubDate>
-      
+      <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
       <guid>https://songshiyu01.github.io/authors/guowei-wan/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hao Li</title>
-      <link>https://songshiyu01.github.io/authors/hao-li/</link>
-      <pubDate>Mon, 21 May 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/authors/hao-li/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hao Wang</title>
-      <link>https://songshiyu01.github.io/authors/hao-wang/</link>
-      <pubDate>Mon, 21 May 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/authors/hao-wang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Manmohan Chandraker</title>
-      <link>https://songshiyu01.github.io/authors/manmohan-chandraker/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/authors/manmohan-chandraker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pengfei Yuan</title>
-      <link>https://songshiyu01.github.io/authors/pengfei-yuan/</link>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/authors/pengfei-yuan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Renlan Cai</title>
-      <link>https://songshiyu01.github.io/authors/renlan-cai/</link>
-      <pubDate>Mon, 21 May 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/authors/renlan-cai/</guid>
+      <title>Hang Gao</title>
+      <link>https://songshiyu01.github.io/authors/hang-gao/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>https://songshiyu01.github.io/authors/hang-gao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shenhua Hou</title>
       <link>https://songshiyu01.github.io/authors/shenhua-hou/</link>
-      <pubDate>Sat, 16 Feb 2019 00:00:00 +0800</pubDate>
-      
+      <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
       <guid>https://songshiyu01.github.io/authors/shenhua-hou/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Shiyu Song</title>
-      <link>https://songshiyu01.github.io/authors/shiyu-song/</link>
-      <pubDate>Sun, 17 Jun 2018 09:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/authors/shiyu-song/</guid>
+      <title>Wendong Ding</title>
+      <link>https://songshiyu01.github.io/authors/wendong-ding/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>https://songshiyu01.github.io/authors/wendong-ding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pengfei Yuan</title>
+      <link>https://songshiyu01.github.io/authors/pengfei-yuan/</link>
+      <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
+      <guid>https://songshiyu01.github.io/authors/pengfei-yuan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Weixin Lu</title>
       <link>https://songshiyu01.github.io/authors/weixin-lu/</link>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 +0800</pubDate>
-      
+      <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/authors/weixin-lu/</guid>
       <description></description>
     </item>
@@ -114,28 +71,75 @@
     <item>
       <title>Xiangyu Fu</title>
       <link>https://songshiyu01.github.io/authors/xiangyu-fu/</link>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 +0800</pubDate>
-      
+      <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/authors/xiangyu-fu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xiaolong Yang</title>
-      <link>https://songshiyu01.github.io/authors/xiaolong-yang/</link>
-      <pubDate>Mon, 21 May 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://songshiyu01.github.io/authors/xiaolong-yang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yao Zhou</title>
       <link>https://songshiyu01.github.io/authors/yao-zhou/</link>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 +0800</pubDate>
-      
+      <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/authors/yao-zhou/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Hao Li</title>
+      <link>https://songshiyu01.github.io/authors/hao-li/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
+      <guid>https://songshiyu01.github.io/authors/hao-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hao Wang</title>
+      <link>https://songshiyu01.github.io/authors/hao-wang/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
+      <guid>https://songshiyu01.github.io/authors/hao-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Renlan Cai</title>
+      <link>https://songshiyu01.github.io/authors/renlan-cai/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
+      <guid>https://songshiyu01.github.io/authors/renlan-cai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiaolong Yang</title>
+      <link>https://songshiyu01.github.io/authors/xiaolong-yang/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
+      <guid>https://songshiyu01.github.io/authors/xiaolong-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clark C. Guest</title>
+      <link>https://songshiyu01.github.io/authors/clark-c.-guest/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 -0700</pubDate>
+      <guid>https://songshiyu01.github.io/authors/clark-c.-guest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manmohan Chandraker</title>
+      <link>https://songshiyu01.github.io/authors/manmohan-chandraker/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 -0700</pubDate>
+      <guid>https://songshiyu01.github.io/authors/manmohan-chandraker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://songshiyu01.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I&#39;m one of the founding team members of the Baidu Autonomous Driving Car project. I joined Baidu in 2014. I&#39;m the principal architect of Baidu Autonomous Driving Technology Department (ADT) now. Since Jan. 2016, I am the tech lead of the mapping and localization team at Baidu ADT.&lt;/p&gt;
+&lt;p&gt;My research interests include Computer Vision, Robotics, Simultaneous Localization and Mapping (SLAM), Structure from Motion (SFM), 3D Reconstruction.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
