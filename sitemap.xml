@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>https://songshiyu01.github.io/tags/list/</loc>
+    <lastmod>2020-01-20T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://songshiyu01.github.io/publication_types/</loc>
     <lastmod>2020-01-20T00:00:00-08:00</lastmod>
   </url>
@@ -49,6 +54,11 @@
   
   <url>
     <loc>https://songshiyu01.github.io/</loc>
+    <lastmod>2020-01-20T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://songshiyu01.github.io/tags/</loc>
     <lastmod>2020-01-20T00:00:00-08:00</lastmod>
   </url>
   
@@ -212,10 +222,6 @@
   
   <url>
     <loc>https://songshiyu01.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://songshiyu01.github.io/tags/</loc>
   </url>
   
 </urlset>
