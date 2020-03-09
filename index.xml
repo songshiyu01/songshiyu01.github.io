@@ -5,12 +5,20 @@
     <link>https://songshiyu01.github.io/</link>
       <atom:link href="https://songshiyu01.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shiyu Song</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Mon, 20 Jan 2020 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Shiyu Song</title>
       <link>https://songshiyu01.github.io/</link>
     </image>
+    
+    <item>
+      <title>DA4AD: End-to-end Deep Attention Aware Features Aided Visual Localization for Autonomous Driving</title>
+      <link>https://songshiyu01.github.io/publication/arxiv2020_visloc/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/publication/arxiv2020_visloc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>LiDAR Inertial Odometry Aided Robust LiDAR Localization System in Changing City Scenes</title>

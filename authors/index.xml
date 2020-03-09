@@ -5,7 +5,7 @@
     <link>https://songshiyu01.github.io/authors/</link>
       <atom:link href="https://songshiyu01.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Mon, 20 Jan 2020 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
@@ -15,16 +15,56 @@
     <item>
       <title>**Shiyu Song**</title>
       <link>https://songshiyu01.github.io/authors/shiyu-song/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://songshiyu01.github.io/authors/shiyu-song/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gang Wang</title>
+      <link>https://songshiyu01.github.io/authors/gang-wang/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/gang-wang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guowei Wan</title>
       <link>https://songshiyu01.github.io/authors/guowei-wan/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://songshiyu01.github.io/authors/guowei-wan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Li Yu</title>
+      <link>https://songshiyu01.github.io/authors/li-yu/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/li-yu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shenhua Hou</title>
+      <link>https://songshiyu01.github.io/authors/shenhua-hou/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/shenhua-hou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiaofei Rui</title>
+      <link>https://songshiyu01.github.io/authors/xiaofei-rui/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/xiaofei-rui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yao Zhou</title>
+      <link>https://songshiyu01.github.io/authors/yao-zhou/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/yao-zhou/</guid>
       <description></description>
     </item>
     
@@ -33,14 +73,6 @@
       <link>https://songshiyu01.github.io/authors/hang-gao/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
       <guid>https://songshiyu01.github.io/authors/hang-gao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shenhua Hou</title>
-      <link>https://songshiyu01.github.io/authors/shenhua-hou/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
-      <guid>https://songshiyu01.github.io/authors/shenhua-hou/</guid>
       <description></description>
     </item>
     
@@ -73,14 +105,6 @@
       <link>https://songshiyu01.github.io/authors/xiangyu-fu/</link>
       <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
       <guid>https://songshiyu01.github.io/authors/xiangyu-fu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yao Zhou</title>
-      <link>https://songshiyu01.github.io/authors/yao-zhou/</link>
-      <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
-      <guid>https://songshiyu01.github.io/authors/yao-zhou/</guid>
       <description></description>
     </item>
     
