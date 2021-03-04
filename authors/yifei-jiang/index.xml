@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Shiyu Song</title>
-    <link>https://songshiyu01.github.io/tags/</link>
-      <atom:link href="https://songshiyu01.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
+    <title>Yifei Jiang | Shiyu Song</title>
+    <link>https://songshiyu01.github.io/authors/yifei-jiang/</link>
+      <atom:link href="https://songshiyu01.github.io/authors/yifei-jiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yifei Jiang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Tags</title>
-      <link>https://songshiyu01.github.io/tags/</link>
+      <title>Yifei Jiang</title>
+      <link>https://songshiyu01.github.io/authors/yifei-jiang/</link>
     </image>
     
     <item>
-      <title>List</title>
-      <link>https://songshiyu01.github.io/tags/list/</link>
+      <title>Exploring Imitation Learning for Autonomous Driving with Feedback Synthesizer and Differentiable Rasterization</title>
+      <link>https://songshiyu01.github.io/publication/arxiv2021_planner/</link>
       <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://songshiyu01.github.io/tags/list/</guid>
+      <guid>https://songshiyu01.github.io/publication/arxiv2021_planner/</guid>
       <description></description>
     </item>
     
