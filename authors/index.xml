@@ -5,7 +5,7 @@
     <link>https://songshiyu01.github.io/authors/</link>
       <atom:link href="https://songshiyu01.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
@@ -15,8 +15,40 @@
     <item>
       <title>**Shiyu Song**</title>
       <link>https://songshiyu01.github.io/authors/shiyu-song/</link>
-      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://songshiyu01.github.io/authors/shiyu-song/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lei He</title>
+      <link>https://songshiyu01.github.io/authors/lei-he/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/lei-he/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ning Wang</title>
+      <link>https://songshiyu01.github.io/authors/ning-wang/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/ning-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shengjie Jiang</title>
+      <link>https://songshiyu01.github.io/authors/shengjie-jiang/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/shengjie-jiang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiaoqing Liang</title>
+      <link>https://songshiyu01.github.io/authors/xiaoqing-liang/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/authors/xiaoqing-liang/</guid>
       <description></description>
     </item>
     

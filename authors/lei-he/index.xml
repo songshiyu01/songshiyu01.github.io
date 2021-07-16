@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Shiyu Song</title>
-    <link>https://songshiyu01.github.io/tags/</link>
-      <atom:link href="https://songshiyu01.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
+    <title>Lei He | Shiyu Song</title>
+    <link>https://songshiyu01.github.io/authors/lei-he/</link>
+      <atom:link href="https://songshiyu01.github.io/authors/lei-he/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lei He</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Tags</title>
-      <link>https://songshiyu01.github.io/tags/</link>
+      <title>Lei He</title>
+      <link>https://songshiyu01.github.io/authors/lei-he/</link>
     </image>
     
     <item>
-      <title>List</title>
-      <link>https://songshiyu01.github.io/tags/list/</link>
+      <title>Diff-Net: Image Feature Difference based High-Definition Map Change Detection</title>
+      <link>https://songshiyu01.github.io/publication/arxiv2021_diffnet/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://songshiyu01.github.io/tags/list/</guid>
+      <guid>https://songshiyu01.github.io/publication/arxiv2021_diffnet/</guid>
       <description></description>
     </item>
     
