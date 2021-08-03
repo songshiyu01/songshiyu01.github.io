@@ -31,7 +31,7 @@
   <meta name="description" content="We present a learning-based planner that aims to robustly drive a vehicle by mimicking human drivers&#39; driving behavior. We leverage a mid-to-mid approach that allows us to manipulate the input to our imitation learning network freely. With that in mind, we propose a novel feedback synthesizer for data augmentation. It allows our agent to gain more driving experience in various previously unseen environments that are likely to encounter, thus improving overall performance. This is in contrast to prior works that rely purely on random synthesizers. Furthermore, rather than completely commit to imitating, we introduce task losses that penalize undesirable behaviors, such as collision, off-road, and so on. Unlike prior works, this is done by introducing a differentiable vehicle rasterizer that directly converts the waypoints output by the network into images. This effectively avoids the usage of heavyweight ConvLSTM networks, therefore, yields a faster model inference time. About the network architecture, we exploit an attention mechanism that allows the network to reason critical objects in the scene and produce better interpretable attention heatmaps. To further enhance the safety and robustness of the network, we add an optional optimization-based post-processing planner improving the driving comfort. We comprehensively validate our method&#39;s effectiveness in different scenarios that are specifically created for evaluating self-driving vehicles. Results demonstrate that our learning-based planner achieves high intelligence and can handle complex situations. Detailed ablation and visualization analysis are included to further demonstrate each of our proposed modules&#39; effectiveness in our method.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://songshiyu01.github.io/publication/arxiv2021_planner/">
+  <link rel="alternate" hreflang="en-us" href="https://songshiyu01.github.io/publication/iros2021_imitation/">
 
   
 
@@ -249,7 +249,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://songshiyu01.github.io/publication/arxiv2021_planner/">
+  <link rel="canonical" href="https://songshiyu01.github.io/publication/iros2021_imitation/">
 
   
   
@@ -257,21 +257,20 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Shiyu Song">
-  <meta property="og:url" content="https://songshiyu01.github.io/publication/arxiv2021_planner/">
+  <meta property="og:url" content="https://songshiyu01.github.io/publication/iros2021_imitation/">
   <meta property="og:title" content="Exploring Imitation Learning for Autonomous Driving with Feedback Synthesizer and Differentiable Rasterization | Shiyu Song">
-  <meta property="og:description" content="We present a learning-based planner that aims to robustly drive a vehicle by mimicking human drivers&#39; driving behavior. We leverage a mid-to-mid approach that allows us to manipulate the input to our imitation learning network freely. With that in mind, we propose a novel feedback synthesizer for data augmentation. It allows our agent to gain more driving experience in various previously unseen environments that are likely to encounter, thus improving overall performance. This is in contrast to prior works that rely purely on random synthesizers. Furthermore, rather than completely commit to imitating, we introduce task losses that penalize undesirable behaviors, such as collision, off-road, and so on. Unlike prior works, this is done by introducing a differentiable vehicle rasterizer that directly converts the waypoints output by the network into images. This effectively avoids the usage of heavyweight ConvLSTM networks, therefore, yields a faster model inference time. About the network architecture, we exploit an attention mechanism that allows the network to reason critical objects in the scene and produce better interpretable attention heatmaps. To further enhance the safety and robustness of the network, we add an optional optimization-based post-processing planner improving the driving comfort. We comprehensively validate our method&#39;s effectiveness in different scenarios that are specifically created for evaluating self-driving vehicles. Results demonstrate that our learning-based planner achieves high intelligence and can handle complex situations. Detailed ablation and visualization analysis are included to further demonstrate each of our proposed modules&#39; effectiveness in our method."><meta property="og:image" content="https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="We present a learning-based planner that aims to robustly drive a vehicle by mimicking human drivers&#39; driving behavior. We leverage a mid-to-mid approach that allows us to manipulate the input to our imitation learning network freely. With that in mind, we propose a novel feedback synthesizer for data augmentation. It allows our agent to gain more driving experience in various previously unseen environments that are likely to encounter, thus improving overall performance. This is in contrast to prior works that rely purely on random synthesizers. Furthermore, rather than completely commit to imitating, we introduce task losses that penalize undesirable behaviors, such as collision, off-road, and so on. Unlike prior works, this is done by introducing a differentiable vehicle rasterizer that directly converts the waypoints output by the network into images. This effectively avoids the usage of heavyweight ConvLSTM networks, therefore, yields a faster model inference time. About the network architecture, we exploit an attention mechanism that allows the network to reason critical objects in the scene and produce better interpretable attention heatmaps. To further enhance the safety and robustness of the network, we add an optional optimization-based post-processing planner improving the driving comfort. We comprehensively validate our method&#39;s effectiveness in different scenarios that are specifically created for evaluating self-driving vehicles. Results demonstrate that our learning-based planner achieves high intelligence and can handle complex situations. Detailed ablation and visualization analysis are included to further demonstrate each of our proposed modules&#39; effectiveness in our method."><meta property="og:image" content="https://songshiyu01.github.io/publication/iros2021_imitation/featured.png">
+  <meta property="twitter:image" content="https://songshiyu01.github.io/publication/iros2021_imitation/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-03-02T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2021-03-20T00:00:00-07:00">
     
-    <meta property="article:modified_time" content="2021-03-02T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-03-20T00:00:00-07:00">
   
 
   
@@ -295,12 +294,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://songshiyu01.github.io/publication/arxiv2021_planner/"
+    "@id": "https://songshiyu01.github.io/publication/iros2021_imitation/"
   },
   "headline": "Exploring Imitation Learning for Autonomous Driving with Feedback Synthesizer and Differentiable Rasterization",
   
-  "datePublished": "2021-03-02T00:00:00Z",
-  "dateModified": "2021-03-02T00:00:00Z",
+  "image": [
+    "https://songshiyu01.github.io/publication/iros2021_imitation/featured.png"
+  ],
+  
+  "datePublished": "2021-03-20T00:00:00-07:00",
+  "dateModified": "2021-03-20T00:00:00-07:00",
   
   "author": {
     "@type": "Person",
@@ -618,18 +621,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>Exploring Imitation Learning for Autonomous Driving with Feedback Synthesizer and Differentiable Rasterization</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -673,7 +684,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -695,14 +706,6 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2103.01882" target="_blank" rel="noopener">
-  Preprint
-</a>
-
 
 
 
@@ -712,7 +715,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2103.01882.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/J.Zhou_S.Song_IROS2021.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -728,6 +731,14 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/uaBV9_5AxzI" target="_blank" rel="noopener">
+  Video
+</a>
+
 
 
 
@@ -735,7 +746,14 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 474px;">
+  <div style="position: relative">
+    <img src="/publication/iros2021_imitation/featured_hu6f4725dac38dec990450d953d12bc06d_330323_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -756,8 +774,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#4">
-              Report
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -774,7 +792,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In arXiv.org</div>
+          <div class="col-12 col-md-9"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -792,6 +810,12 @@
 
 
 
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/list/">List</a>
+  
+</div>
+
 
 
 <div class="share-box" aria-hidden="true">
@@ -805,7 +829,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://songshiyu01.github.io/publication/arxiv2021_planner/&amp;text=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://songshiyu01.github.io/publication/iros2021_imitation/&amp;text=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -818,7 +842,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://songshiyu01.github.io/publication/arxiv2021_planner/&amp;t=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://songshiyu01.github.io/publication/iros2021_imitation/&amp;t=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -831,7 +855,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization&amp;body=https://songshiyu01.github.io/publication/arxiv2021_planner/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization&amp;body=https://songshiyu01.github.io/publication/iros2021_imitation/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -844,7 +868,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://songshiyu01.github.io/publication/arxiv2021_planner/&amp;title=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://songshiyu01.github.io/publication/iros2021_imitation/&amp;title=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -857,7 +881,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization%20https://songshiyu01.github.io/publication/arxiv2021_planner/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization%20https://songshiyu01.github.io/publication/iros2021_imitation/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -870,7 +894,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://songshiyu01.github.io/publication/arxiv2021_planner/&amp;title=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://songshiyu01.github.io/publication/iros2021_imitation/&amp;title=Exploring%20Imitation%20Learning%20for%20Autonomous%20Driving%20with%20Feedback%20Synthesizer%20and%20Differentiable%20Rasterization" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -928,6 +952,23 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/eccv2020_visloc/">DA4AD: End-to-end Deep Attention-based Visual Localization for Autonomous Driving</a></li>
+      
+      <li><a href="/publication/icra2020_lio/">LiDAR Inertial Odometry Aided Robust LiDAR Localization System in Changing City Scenes</a></li>
+      
+      <li><a href="/publication/iccv2019_registration/">DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration</a></li>
+      
+      <li><a href="/publication/cvpr2019_localization/">L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving</a></li>
+      
+      <li><a href="/publication/icra2018_localization/">Robust and Precise Vehicle Localization based on Multi-sensor Fusion in Diverse City Scenes</a></li>
+      
+    </ul>
+  </div>
   
 
 
