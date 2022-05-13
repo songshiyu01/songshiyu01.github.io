@@ -5,12 +5,20 @@
     <link>https://songshiyu01.github.io/publication_types/1/</link>
       <atom:link href="https://songshiyu01.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Sat, 20 Mar 2021 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Shiyu Song](https://songshiyu01.github.io/)</copyright><lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://songshiyu01.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://songshiyu01.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Diff-Net: Image Feature Difference based High-Definition Map Change Detection</title>
+      <link>https://songshiyu01.github.io/publication/icra2022_diffnet/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://songshiyu01.github.io/publication/icra2022_diffnet/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Exploring Imitation Learning for Autonomous Driving with Feedback Synthesizer and Differentiable Rasterization</title>
