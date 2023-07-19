@@ -677,32 +677,52 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h3 id="summary">Summary</h3>
+      
+
+<h3 id="summary">Summary</h3>
+
 <p>Scale drift is a crucial challenge for monocular autonomous driving to emulate the performance of stereo. This paper presents a real-time monocular SFM system that corrects for scale drift using a novel cue combination framework for ground plane estimation, yielding accuracy comparable to stereo over long driving sequences. Our ground plane estimation uses multiple cues like sparse features, dense inter-frame stereo and (when applicable) object detection. A data-driven mechanism is proposed to learn models from training data that relate observation covariances for each cue to error behavior of its underlying variables. During testing, this allows per-frame adaptation of observation covariances based on relative confidences inferred from visual data. Our framework significantly boosts not only the accuracy of monocular self-localization, but also that of applications like object localization that rely on the ground plane. Experiments on the KITTI dataset demonstrate the accuracy of our ground plane estimation, monocular SFM and object localization relative to ground truth, with detailed comparisons to prior art.</p>
+
 <h3 id="accuracy">Accuracy</h3>
+
 <p>We demonstrate our performance on the KITTI dataset. For camera self-localization, our purely vision-based system achieves a rotation error of 0.005 degrees per meter and a translation error of 2.5%, which compares favorably even to state-of-the-art stereo systems and significantly outperforms other monocular systems. For 3D localization of other traffic participants like cars, we achieve low errors of 8% for near objects (within 30 meters) and 12% for far objects (beyond 30 meters).</p>
-<p><img src="/img/monocular_vo_overview.png" alt="The overview of the monocular visual odometry system"></p>
+
+<p><img src="/img/monocular_vo_overview.png" alt="The overview of the monocular visual odometry system" /></p>
+
 <h3 id="cue-combination">Cue combination</h3>
+
 <p>The main challenge in monocular SFM is scale drift, since unlike the case of stereo, there is no reference baseline. We overcome this challenge with a novel cue combination framework, that combines information from 3D points, inter-frame stereo and object detection.</p>
-<p><img src="/img/monocular_vo_cue.png" alt="The cue combination of the monocular visual odometry system"></p>
+
+<p><img src="/img/monocular_vo_cue.png" alt="The cue combination of the monocular visual odometry system" /></p>
+
 <h3 id="comparison-to-other-systems">Comparison to other systems</h3>
+
 <p>Our real-time monocular SFM is comparable in accuracy to state-of-the-art stereo systems and significantly outperforms other monocular systems. A few example sequences are shown here from the KITTI benchmark.</p>
-<p><img src="/img/monocular_vo_comparison.png" alt="The comparison to other systems"></p>
+
+<p><img src="/img/monocular_vo_comparison.png" alt="The comparison to other systems" /></p>
+
 <h3 id="videos">Videos</h3>
+
 <p>These videos provide a 1-minute description of the paper and demonstrate the monocular visual odometry and 3D object localization results.</p>
+
 <h5 id="overview">Overview</h5>
+
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/RN-WHId0tek" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+
 <h5 id="3d-object-localization">3D object localization</h5>
+
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/_uxX_DlJ0CI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+
 <h5 id="monocular-visual-odometry">Monocular visual odometry</h5>
+
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/7orRPfRbhUs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -1523,7 +1543,7 @@
   
 
   <p class="powered-by">
-    © 2020 <a href="https://songshiyu01.github.io/">Shiyu Song</a> &middot; 
+    &copy; 2020 <a href="https://songshiyu01.github.io/">Shiyu Song</a> &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
